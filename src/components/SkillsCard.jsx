@@ -7,8 +7,8 @@ const SkillsCard = ({ title, icon, content }) => {
   }
 
   return (
-    <Card>
-      <div className="flex items-center mb-4 min-h-[63px]">
+    <Card className="min-h-[413px]">
+      <div className="flex items-center mb-4">
         {icon && <span className="mr-2">{icon}</span>}
         <h2 className="text-lg font-bold">{title}</h2>
       </div>

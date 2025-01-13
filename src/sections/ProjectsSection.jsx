@@ -1,4 +1,4 @@
-import ProjectCard from "../components/ProjectCard.jsx";
+import ProjectCard from "../components/ProjectCard";
 import content from "../data/content.json";
 
 const ProjectsSection = () => {
@@ -17,7 +17,8 @@ const ProjectsSection = () => {
             title={item.title}
             description={item.description}
             image={item.image}
-            link={item.link || "https://google.com"}
+            link={item.link}
+            route={item.route}
           />
         ))}
       </div>

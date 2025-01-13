@@ -98,45 +98,51 @@
     },
     {
       "category": "projects",
-      "title": "Project 1",
+      "title": "Pre-Pair.com",
       "description": "This is a description of Project 1.",
-      "image": "/project1.png",
-      "link": "https://google.com"
+      "image": "/prepair.png",
+      "link": "https://pre-pair.com",
+      "route": "/projects/project1"
     },
     {
       "category": "projects",
       "title": "Project 2",
       "description": "This is a description of Project 2.",
       "image": "/project2.png",
-      "link": "https://google.com"
+      "link": "https://google.com",
+      "route": "/projects/project2"
     },
     {
       "category": "projects",
       "title": "Project 3",
       "description": "This is a description of Project 3.",
       "image": "/project3.png",
-      "link": "https://google.com"
+      "link": "https://google.com",
+      "route": "/projects/project3"
     },
     {
       "category": "projects",
       "title": "Project 4",
       "description": "This is a description of Project 4.",
       "image": "/project4.png",
-      "link": "https://google.com"
+      "link": "https://google.com",
+      "route": "/projects/project4"
     },
     {
       "category": "projects",
       "title": "Project 5",
       "description": "This is a description of Project 5.",
       "image": "/project5.png",
-      "link": "https://google.com"
+      "link": "https://google.com",
+      "route": "/projects/project5"
     },
     {
       "category": "projects",
       "title": "Project 6",
       "description": "This is a description of Project 6.",
       "image": "/project6.png",
-      "link": "https://google.com"
+      "link": "https://google.com",
+      "route": "/projects/project6"
     }
   ]
 }

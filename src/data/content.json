@@ -98,19 +98,33 @@
     },
     {
       "category": "projects",
-      "title": "Pre-Pair.com",
-      "description": "This is a description of Project 1.",
+      "title": "Pre-Pair SaaS Platform - Live Production System",
+      "tagline": "Backend - Frontend - DevOps",
+      "short_description": "Developed and maintained a live SaaS platform using Python, Django, PostgreSQL, and Tailwind CSS, deployed on DigitalOcean. Implemented a CI/CD pipeline with GitHub to automate testing and deployment for a seamless production workflow.",
+      "description": [
+        "At Pre-Pair, I was part of a team that developed a SaaS platform from the ground up, designed to support complex workflows. The project provided a great opportunity to work with a modern tech stack and refine my skills in building scalable, cloud-based applications.",
+        "The backend was built using Python and Django, with PostgreSQL as the primary database. For the frontend, we utilized Tailwind CSS, ensuring the user interface was both efficient and easy to maintain. The platform was deployed to DigitalOcean, leveraging its capabilities to provide scalable hosting and reliable uptime.",
+        "Our development workflow centered around GitHub, where we managed version control and collaboration. I helped implement a CI/CD pipeline that automated key steps in the development process. Changes pushed to GitHub would trigger automated tests and, if successful, deploy updates to the cloud. This setup minimized manual intervention, improved deployment reliability, and ensured that only thoroughly tested code made it into production.",
+        "This experience allowed me to grow in understanding the end-to-end development lifecycle, from local development to deployment in the cloud. It also deepened my familiarity with creating and maintaining CI/CD pipelines, database integration, and ensuring a seamless development workflow."
+      ],
       "image": "/prepair.png",
       "link": "https://pre-pair.com",
       "route": "/projects/project1"
     },
     {
       "category": "projects",
-      "title": "Project 2",
-      "description": "This is a description of Project 2.",
-      "image": "/project2.png",
-      "link": "https://google.com",
-      "route": "/projects/project2"
+      "title": "Developer's Portfolio",
+      "tagline": "REACT - AWS - CloudFlare",
+      "short_description":"A responsive and dynamic portfolio showcasing my development projects, skills, and experience. Built with React, hosted on AWS, and integrated with Cloudflare for seamless performance and reliability.",
+      "description": [
+        "The Developer's Portfolio is a personal website created to highlight my journey as a software developer. Built with React, the portfolio reflects my growing expertise in web development, with a focus on clean design and responsive functionality. Hosted on AWS and integrated with Cloudflare, it demonstrates my ability to deploy and manage modern web applications using industry-standard tools.",
+        "The portfolio is designed to be both visually appealing and functional, featuring dynamic content management through a centralized JSON structure. This approach allows for easy updates to projects, skills, and other sections without the need for extensive code changes. Each project is showcased with detailed descriptions, links, and visuals, offering visitors an engaging way to explore my work.",
+        "With static hosting on AWS S3 and Cloudflare providing CDN and DNS services, the portfolio delivers fast and reliable performance. Subtle animations, hover effects, and thoughtful design choices enhance the user experience, making the site inviting and intuitive to navigate. This project represents my dedication to continuous learning and serves as a platform to share my skills, experiences, and aspirations with others in the industry."
+      ],
+      "image": "/portfolio.png",
+      "link": "https://www.jeremygrice.tech",
+      "route": "/projects/project2",
+      "repo": "https://github.com/wjgrice/portfolio"
     },
     {
       "category": "projects",

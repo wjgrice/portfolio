@@ -14,11 +14,11 @@ const ProjectsSection = () => {
         {projectsContent.map((item, index) => (
           <ProjectCard
             key={index}
-            title={item.title}
-            description={item.description}
+            short_description={item.short_description} // Added short_description
             image={item.image}
             link={item.link}
             route={item.route}
+            tagline={item.tagline}
           />
         ))}
       </div>

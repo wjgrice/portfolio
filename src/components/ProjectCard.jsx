@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ title, description, image, link, route }) => {
+const ProjectCard = ({ tagline, short_description, image, link, route }) => {
   const destination = route || link;
 
   return (
@@ -8,12 +8,28 @@ const ProjectCard = ({ title, description, image, link, route }) => {
       to={destination}
       target={route ? "_self" : "_blank"}
       rel={route ? undefined : "noopener noreferrer"}
-      className="block bg-cover bg-center bg-no-repeat p-4 shadow rounded transition-transform transform hover:scale-105 hover:shadow-xl"
-      style={{ backgroundImage: `url(${image})` }}
+      className="block relative shadow rounded overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl"
+      style={{
+        minHeight: "300px", // Minimum height to ensure consistent size
+      }}
     >
-      <div className="bg-white bg-opacity-75 dark:bg-gray-800 dark:bg-opacity-75 p-4 rounded">
-        <h3 className="text-lg font-bold mb-2">{title}</h3>
-        <p>{description}</p>
+      {/* Image */}
+      <div className="w-full h-full">
+        <img
+          src={image}
+          alt={tagline || "Project image"}
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 transition-opacity duration-300 hover:opacity-100 flex items-center justify-center">
+        <div className="text-center text-white p-4">
+          {/* Display tagline if present */}
+          {tagline && <h4 className="text-lg font-semibold mb-2">{tagline}</h4>}
+          {/* Display the short description if available */}
+          {short_description && <p className="text-sm">{short_description}</p>}
+        </div>
       </div>
     </Link>
   );

@@ -1,0 +1,142 @@
+{
+  "sections": [
+    {
+      "category": "objectives",
+      "title": "Objectives",
+      "image": "/bw-headshot.png",
+      "alt": "Headshot of J. Grice",
+      "content": [
+        "Software Engineer with a strong passion for building reliable and impactful systems. After a career in telecom, I transitioned into software development because I enjoy problem-solving and creating solutions that drive value.",
+        "My experience includes working with technologies like Python, Django, Docker, and PostgreSQL, as well as contributing to the development and maintenance of a SaaS platform. As the DevOps Engineer for the SaaS startup, I managed deployment pipelines, optimized workflows, and ensured smooth operations across development and production environments.",
+        "I’m eager to continue growing my skills, taking on meaningful projects, and collaborating with teams to create effective and scalable solutions. I’m seeking opportunities such as a Software Engineer, Backend Developer, Python Developer, DevOps Engineer, or Full Stack Engineer, where I can contribute to impactful work while continuing to expand my expertise in the field."
+      ]
+    },
+    {
+      "category": "details",
+      "title": "Contact",
+      "icon": "📧",
+      "content": [
+        {
+          "text": "214-998-9128",
+          "icon": "/phone-icon.svg"
+        },
+        {
+          "text": "wjgrice@gmail.com",
+          "icon": "/email-icon.svg"
+        },
+        {
+          "text": "Marianna, FL",
+          "icon": "/location-icon.svg",
+          "href": "https://www.google.com/maps/place/Marianna,+FL/@30.7946667,-85.2653372,13z"
+        },
+        {
+          "text": "linkedin/in/jeremygrice",
+          "icon": "/linkedin-logo.svg",
+          "href": "https://linkedin.com/in/jeremygrice"
+        },
+        {
+          "text": "github.com/wjgrice",
+          "icon": "/github-logo.svg",
+          "href": "https://github.com/wjgrice"
+        }
+      ]
+    },
+    {
+      "category": "details",
+      "title": "Work History",
+      "icon": "💼",
+      "content": [
+        {
+          "company": "Pre-Pair, Inc.",
+          "title": "Software Engineer/DevOps Engineer",
+          "dates": "April 2023 to October 2024",
+          "text": "Developed a greenfield SaaS platform that streamlined RV dealership workflows, reduced financing turnaround times, and improved user efficiency. Scaled the engineering team and implemented Agile practices to ensure consistent delivery."
+        },
+        {
+          "company": "Ivy Technology",
+          "title": "Senior Manager",
+          "dates": "June 2019 to May 2023",
+          "text": "Led a team of 34 engineers supporting 21 telecommunications platforms, optimizing equipment management and reducing outages by 80% with innovative software solutions."
+        },
+        {
+          "company": "Telmar Network Technology / iQor",
+          "title": "Senior Manager",
+          "dates": "July 2013 to June 2019",
+          "text": "Directed teams supporting telecom hardware and software, improving system reliability through advanced troubleshooting and documentation. Introduced Lean methodologies to enhance operational efficiency and reduce waste."
+        }
+      ]
+    },
+    {
+      "category": "details",
+      "title": "Education",
+      "icon": "🎓",
+      "content": [
+        {
+          "degree": "B.S. in Computer Science",
+          "institution": "Western Governors University",
+          "dates": "Graduated 2022"
+        }
+      ]
+    },
+    {
+      "category": "details",
+      "title": "Skills",
+      "icon": "⚙️",
+      "content": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "GitHub",
+        "Tailwind",
+        "Jira",
+        "AWS",
+        "Digital Ocean",
+        "CI/CD"
+      ]
+    },
+    {
+      "category": "projects",
+      "title": "Project 1",
+      "description": "This is a description of Project 1.",
+      "image": "/project1.png",
+      "link": "https://google.com"
+    },
+    {
+      "category": "projects",
+      "title": "Project 2",
+      "description": "This is a description of Project 2.",
+      "image": "/project2.png",
+      "link": "https://google.com"
+    },
+    {
+      "category": "projects",
+      "title": "Project 3",
+      "description": "This is a description of Project 3.",
+      "image": "/project3.png",
+      "link": "https://google.com"
+    },
+    {
+      "category": "projects",
+      "title": "Project 4",
+      "description": "This is a description of Project 4.",
+      "image": "/project4.png",
+      "link": "https://google.com"
+    },
+    {
+      "category": "projects",
+      "title": "Project 5",
+      "description": "This is a description of Project 5.",
+      "image": "/project5.png",
+      "link": "https://google.com"
+    },
+    {
+      "category": "projects",
+      "title": "Project 6",
+      "description": "This is a description of Project 6.",
+      "image": "/project6.png",
+      "link": "https://google.com"
+    }
+  ]
+}

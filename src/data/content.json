@@ -128,35 +128,32 @@
     },
     {
       "category": "projects",
-      "title": "Project 3",
-      "description": "This is a description of Project 3.",
-      "image": "/project3.png",
-      "link": "https://google.com",
-      "route": "/projects/project3"
+      "title": "coinID",
+      "tagline": "Machine Learning - PyTorch",
+      "short_description": "A machine learning application for classifying coin images, leveraging PyTorch and robust data augmentation techniques for training and evaluation.",
+      "description": [
+        "The Coin Classification Application is a Python-based machine learning project designed to classify images of coins into categories such as pennies, nickels, dimes, and quarters. Using PyTorch and TorchVision, the project implements a ResNet-18 model to achieve accurate classification, incorporating robust data augmentation techniques to improve model generalization.",
+        "The application provides a console-based interface for training, validation, and inference workflows. Users can train the model on custom datasets, evaluate performance using metrics such as accuracy, precision, recall, and F1 score, and visualize results through bar charts, box plots, and scatter plots. Early stopping is integrated to optimize training efficiency.",
+        "The project demonstrates practical machine learning capabilities, emphasizing clean design and modularity. With its comprehensive feature set, the application serves as an excellent tool for exploring and understanding machine learning workflows in a practical context."
+      ],
+      "image": "/coinID.png",
+      "route": "/projects/project3",
+      "repo": "https://github.com/wjgrice/coinID"
     },
     {
       "category": "projects",
-      "title": "Project 4",
-      "description": "This is a description of Project 4.",
-      "image": "/project4.png",
-      "link": "https://google.com",
-      "route": "/projects/project4"
-    },
-    {
-      "category": "projects",
-      "title": "Project 5",
-      "description": "This is a description of Project 5.",
-      "image": "/project5.png",
-      "link": "https://google.com",
-      "route": "/projects/project5"
-    },
-    {
-      "category": "projects",
-      "title": "Project 6",
-      "description": "This is a description of Project 6.",
-      "image": "/project6.png",
-      "link": "https://google.com",
-      "route": "/projects/project6"
+      "title": "Memory Game",
+      "tagline": "Retro Puzzle Game - Pure JavaScript",
+      "short_description": "A retro-style tile-matching game built with pure HTML, CSS, and JavaScript, featuring dynamic tile flips, scoring, and celebratory confetti effects.",
+      "description": [
+        "Retro Flip is a browser-based puzzle game where players flip tiles to match pairs of colors. Styled with a retro aesthetic, the game offers engaging gameplay through dynamic tile animations and a scoring system that tracks both current and high scores. Upon winning, players are rewarded with a vibrant confetti animation as a celebration.",
+        "The game is built entirely using HTML, CSS, and JavaScript. Tiles are shuffled and dynamically generated, with transitions and animations handled through CSS keyframes and JavaScript event listeners. Local storage is used to persist the high score across sessions, making the game both interactive and rewarding.",
+        "Retro Flip serves as a great example of how classic game mechanics can be brought to life using modern web technologies, offering a fun and nostalgic experience. It is lightweight, responsive, and works directly in the browser without requiring additional dependencies or installations."
+      ],
+      "image": "/memorygame.png",
+      "link": "http://www.memorygame.com.s3-website.us-east-2.amazonaws.com/",
+      "route": "/projects/project4",
+       "repo": "https://github.com/wjgrice/memory_game"
     }
   ]
 }

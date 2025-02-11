@@ -10,11 +10,11 @@ const ProjectsSection = () => {
 
   return (
     <section className="w-full px-4">
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {projectsContent.map((item, index) => (
           <ProjectCard
             key={index}
-            short_description={item.short_description} // Added short_description
+            short_description={item.short_description}
             image={item.image}
             link={item.link}
             route={item.route}

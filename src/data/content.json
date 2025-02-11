@@ -107,7 +107,7 @@
         "Our development workflow centered around GitHub, where we managed version control and collaboration. I helped implement a CI/CD pipeline that automated key steps in the development process. Changes pushed to GitHub would trigger automated tests and, if successful, deploy updates to the cloud. This setup minimized manual intervention, improved deployment reliability, and ensured that only thoroughly tested code made it into production.",
         "This experience allowed me to grow in understanding the end-to-end development lifecycle, from local development to deployment in the cloud. It also deepened my familiarity with creating and maintaining CI/CD pipelines, database integration, and ensuring a seamless development workflow."
       ],
-      "image": "/prepair.png",
+      "image": "/Pre-pair.png",
       "link": "https://pre-pair.com",
       "route": "/projects/project1"
     },

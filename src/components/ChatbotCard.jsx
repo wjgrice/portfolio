@@ -21,7 +21,7 @@ const ChatbotCard = () => {
     setAudioLoading(false);
     try {
       const response = await fetch(
-        'https://master.d1sfglrd2rhsqz.amplifyapp.com/api/chat/',
+        'https://gip1dwjvja.execute-api.us-east-2.amazonaws.com/api/chat/',
         {
           method: 'POST',
           headers: {
@@ -49,7 +49,7 @@ const ChatbotCard = () => {
     setAudioLoading(true);
     try {
       const response = await fetch(
-        'https://master.d1sfglrd2rhsqz.amplifyapp.com/api/chat/audio/',
+        'https://gip1dwjvja.execute-api.us-east-2.amazonaws.com/api/chat/audio/',
         {
           method: 'POST',
           headers: {

@@ -21,7 +21,7 @@ const ChatbotCard = () => {
     setAudioLoading(false);
     try {
       const response = await fetch(
-        'https://gip1dwjvja.execute-api.us-east-2.amazonaws.com/Production/api/chat/',
+        'http://gptassist-fastapi-env.eba-62mwwktp.us-east-1.elasticbeanstalk.com/api/chat/',
         {
           method: 'POST',
           headers: {
@@ -49,7 +49,7 @@ const ChatbotCard = () => {
     setAudioLoading(true);
     try {
       const response = await fetch(
-        'https://gip1dwjvja.execute-api.us-east-2.amazonaws.com/Production/api/chat/audio/',
+        'http://gptassist-fastapi-env.eba-62mwwktp.us-east-1.elasticbeanstalk.com/api/chat/audio/',
         {
           method: 'POST',
           headers: {

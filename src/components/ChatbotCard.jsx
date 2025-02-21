@@ -21,7 +21,7 @@ const ChatbotCard = () => {
     setAudioLoading(false);
     try {
       const response = await fetch(
-        'https://chatbot.jeremygrice.tech/api/chat/',
+        'https://resumebot.jeremygrice.info/api/chat/',
         {
           method: 'POST',
           headers: {
@@ -49,7 +49,7 @@ const ChatbotCard = () => {
     setAudioLoading(true);
     try {
       const response = await fetch(
-        'https://chatbot.jeremygrice.tech/api/chat/audio/',
+        'https://resumebot.jeremygrice.info/api/chat/audio/',
         {
           method: 'POST',
           headers: {

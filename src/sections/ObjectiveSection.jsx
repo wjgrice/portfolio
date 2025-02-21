@@ -11,7 +11,7 @@ const ObjectiveSection = () => {
   return (
     <section className="w-full px-4">
       <ImageCard
-        title="About Me"
+        title=""
         image={objectiveContent.image}
         alt={objectiveContent.alt}
         paragraphs={objectiveContent.content}

@@ -14,7 +14,7 @@ const ImageCard = ({ title, image, alt, paragraphs }) => {
 
       {/* Text Content */}
       <div className="flex-1">
-        <h2 className="text-2xl font-bold mb-4">{title}</h2>
+        {title && <h2 className="text-2xl font-bold mb-4">{title}</h2>}
         {paragraphs.map((paragraph, index) => (
           <p key={index} className="mb-4">
             {paragraph}
